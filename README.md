@@ -27,4 +27,4 @@ ValueError: Empty Array supplied
 ```
 
 ## Note
-It will be an array of elements which has \__lt__ method implemented, otherwise it will throw TypError.
+It will be an array of elements which has \__lt__ method implemented, otherwise it will throw TypeError.
