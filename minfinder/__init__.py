@@ -1,0 +1,1 @@
+from .minfinder import minimum
