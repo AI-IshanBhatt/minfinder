@@ -11,6 +11,13 @@ This package is not published on pypi.org, so to install it you need to build it
 
 `pip install dist/minfinder-0.0.1-py3-none-any.whl`
 
+OR (If you are a fan of Makefile)
+```
+make test
+make buildproject
+make install
+```
+
 ## Usage
 ```
 from minfinder import *
