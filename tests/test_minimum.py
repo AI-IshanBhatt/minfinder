@@ -16,6 +16,8 @@ class TestMinimum(unittest.TestCase):
     def test_two_elements_array(self):
         arr = [5, 7]
         self.assertEqual(5, minimum(arr))
+        arr = [7, 5]
+        self.assertEqual(5, minimum(arr))
 
     def test_right_skewed_array(self):
         arr = [100, 90, 80, 50, 55, 59, 75, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
@@ -40,6 +42,10 @@ class TestMinimum(unittest.TestCase):
     def test_int_float_array(self):
         mix_arr = [2.9, 3.7, 9.3, 15, 20]
         self.assertEqual(2.9, minimum(mix_arr))
+
+    def test_rust_fail(self):
+        arr = [50,40,30,20,15,10,5,89,99]
+        self.assertEqual(5, minimum(arr))
 
     def test_custom_class_with_lt(self):
         class Person:
