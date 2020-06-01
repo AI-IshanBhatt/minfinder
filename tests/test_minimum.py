@@ -44,7 +44,7 @@ class TestMinimum(unittest.TestCase):
         self.assertEqual(2.9, minimum(mix_arr))
 
     def test_rust_fail(self):
-        arr = [50,40,30,20,15,10,5,89,99]
+        arr = [50, 40, 30, 20, 15, 10, 5, 89, 99]
         self.assertEqual(5, minimum(arr))
 
     def test_custom_class_with_lt(self):
